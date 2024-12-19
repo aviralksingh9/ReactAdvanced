@@ -29,6 +29,7 @@ import Home from "./Components/AuthContext/Home";
 import Login from "./Components/AuthContext/Login";
 import TimerApp from "./Components/TimerApp/TimerApp";
 import InputBoxManager from "./Components/InputBoxManager/InputBoxManager";
+import Practice from "./Components/Practice/Practice";
 
 const LazyComponent = React.lazy(() => import("./Components/LazyComponent"));
 
@@ -93,7 +94,8 @@ const App = () => {
               </Suspense>
             }
           />
-          <Route path="input-box" element={<InputBoxManager/>}/>
+          <Route path="/input-box" element={<InputBoxManager />} />
+          <Route path="/practice" element={<Practice />} />
         </Routes>
       </Router>
     </div>

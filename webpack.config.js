@@ -49,8 +49,11 @@ module.exports = {
     static: path.join(__dirname, "dist"), // Serve content from dist folder
     port: 3000, // Port for development server
     open: true, // Automatically open browser
+    hot: true, // Enable hot reloading
     devMiddleware: {
       writeToDisk: true, // Ensure that chunks are written to disk in development
     },
+    historyApiFallback: true, // Handle client-side routing correctly
+    watchFiles: ["src/**/*"], // Make sure the source files are being watched
   },
 };
