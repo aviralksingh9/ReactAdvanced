@@ -83,6 +83,9 @@ function HomePage() {
           <Link to="/lazy" className="btn">
             Lazy Loaded Component
           </Link>
+          <Link to="/input-box" className="btn">
+            Input Box Manager
+          </Link>
         </div>
       </div>
     </div>
