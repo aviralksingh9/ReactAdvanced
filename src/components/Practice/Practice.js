@@ -1,11 +1,7 @@
 import React from "react";
 
 const Practice = () => {
-  return (
-    <div>
-      <h1>Just for Practice</h1>
-    </div>
-  );
+  return <div>Practice</div>;
 };
 
 export default Practice;

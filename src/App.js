@@ -30,6 +30,7 @@ import Login from "./Components/AuthContext/Login";
 import TimerApp from "./Components/TimerApp/TimerApp";
 import InputBoxManager from "./Components/InputBoxManager/InputBoxManager";
 import Practice from "./Components/Practice/Practice";
+import Table from "./Components/Table/Table";
 
 const LazyComponent = React.lazy(() => import("./Components/LazyComponent"));
 
@@ -96,6 +97,7 @@ const App = () => {
           />
           <Route path="/input-box" element={<InputBoxManager />} />
           <Route path="/practice" element={<Practice />} />
+          <Route path="/table" element={<Table />} />
         </Routes>
       </Router>
     </div>
